@@ -1,4 +1,4 @@
-# tutorial
+# Random On/Off
 
 ## It's time to code! @fullscreen
 
