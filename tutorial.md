@@ -9,3 +9,5 @@ Let's get real bright. We're going to make all the lights flash on your board!
 ## Step 1: Getting Set-up
 
 Is this working?
+
+## Step 2: How about now?
