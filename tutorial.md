@@ -1,7 +1,7 @@
 # tutorial
 
-## Introduction
+## It's time to code! @fullscreen
 
-### Introduction step @unplugged
+Let's get real bright. We're going to make all the lights flash on your board!
 
 ![Inserted GIF?](https://raw.githubusercontent.com/rypsmith/randomonoff/master/randomonoff.gif)
