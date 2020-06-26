@@ -1,15 +1,15 @@
 # Random On/Off
 
-## It's time to code! @fullscreen
+## Introduction @unplugged 
 
 Let's get real bright. We're going to make all the lights flash on your board!
 
-![Flash lights](/static/tutorials/lights-flashing.gif)
+![Flash lights](https://raw.githubusercontent.com/rypsmith/randomonoff/master/randomonoff.gif)
 
 ## Step 1: Getting Set-up
 
-Is this working?
+Start out by removing the forever and the ``||basic:forever||`` and the ``||basic:on start||`` blocks and bring in two ``||input:on button "A" pressed||`` blocks.
 
-## Step 2: How about now?
+## Step 2: What is a variable
 
-Maybe?
+Variables can be thought of as containers that information can be put into and stored. Go the ``||variables:Variables||`` category and make two variables. Give them two different names like random1 and random2. 
