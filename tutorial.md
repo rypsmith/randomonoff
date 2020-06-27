@@ -100,7 +100,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-# Step 8: Get ready to turn off the lights.
+## Step 8: Get ready to turn off the LED.
 
 Now you need to turn the same LED off. Put a ``||Led:unplot||`` block inside the ``||input:on button "B" pressed||`` block.
 
@@ -114,5 +114,22 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
     led.unplot(0, 0)
+})
+```
+
+## Step 9: Turn the LED Off
+
+Finally turn the LED off by placing the same variable blocks into the X and Y values for the``||Led:unplot||`` block. It is important that the same variable that you used for the ``||Led:plot||`` X value, is the same. This also needs to be true for the Y value.
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = randint(0, 4)
+    random2 = randint(0, 4)
+    led.plot(random1, random2)
+})
+input.onButtonPressed(Button.B, function () {
+    led.unplot(random1, random2)
 })
 ```
