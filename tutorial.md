@@ -62,9 +62,40 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-## Step 6: Use the Variables
+## Step 6: Get ready to use variables
 
-Go to the 
+Go and grab a ``||Led:Plot||`` block and place it under the two ``||variables:set ... to||`` blocks.
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = randint(0, 4)
+    random2 = randint(0, 4)
+    led.plot(0, 0)
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+```
+
+## Step 7: Use the variables
+
+Go into the ``||variables:Variables||`` category and look for the two custom variable block that you made.
 
 ![New Variable Blocks](https://raw.githubusercontent.com/rypsmith/randomonoff/master/variableblocks.png)
 
+Take one and put it into the x value for the ``||Led:Plot||`` block and place the other into the y value. 
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = randint(0, 4)
+    random2 = randint(0, 4)
+    led.plot(random1, random2)
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+```
