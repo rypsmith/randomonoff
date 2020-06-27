@@ -8,7 +8,7 @@ Let's turn pixles on and off with the A and B buttons - RANDOMLY!
 
 ## Step 1: Getting Set-up
 
-Start out by removing the forever and the ``||basic:forever||`` and the ``||basic:on start||`` blocks and bring in two ``||input:on button "A" pressed||`` blocks. Change one block to ``||input:on button "B" pressed||``
+Start out by removing the forever and the ``||basic:forever||`` and the ``||basic:on start||`` blocks and bring in two ``||input:on button "A" pressed||`` blocks. Change one block to ``||input:on button "B" pressed||``.
 
 ## Step 2: What is a variable
 
@@ -85,7 +85,7 @@ Go into the ``||variables:Variables||`` category and look for the two custom var
 
 ![New Variable Blocks](https://raw.githubusercontent.com/rypsmith/randomonoff/master/variableblocks.png)
 
-Take one and put it into the x value for the ``||Led:Plot||`` block and place the other into the y value. 
+Take one and put it into the x value for the ``||Led:plot||`` block and place the other into the y value. 
 
 ```blocks
 let random1 = 0
@@ -97,5 +97,22 @@ input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
 	
+})
+```
+
+# Step 8: Get ready to turn off the lights.
+
+Now you need to turn the same LED off. Put a ``||Led:unplot||`` block inside the ``||input:on button "B" pressed||`` block.
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = randint(0, 4)
+    random2 = randint(0, 4)
+    led.plot(random1, random2)
+})
+input.onButtonPressed(Button.B, function () {
+    led.unplot(0, 0)
 })
 ```
