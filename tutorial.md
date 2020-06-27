@@ -100,7 +100,7 @@ input.onButtonPressed(Button.B, function () {
 })
 ```
 
-## Step 8: Get ready to turn off the LED.
+## Step 8: Get ready to turn off the LED
 
 Now you need to turn the same LED off. Put a ``||Led:unplot||`` block inside the ``||input:on button "B" pressed||`` block.
 
