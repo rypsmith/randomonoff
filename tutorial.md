@@ -4,7 +4,7 @@
 
 Let's get real bright. We're going to make all the lights flash on your board!
 
-![Flash lights](https://raw.githubusercontent.com/rypsmith/randomonoff/master/randomonoff.gif)
+![One Light on and off](https://raw.githubusercontent.com/rypsmith/randomonoff/master/randomonoff.gif)
 
 ## Step 1: Getting Set-up
 
@@ -12,4 +12,59 @@ Start out by removing the forever and the ``||basic:forever||`` and the ``||basi
 
 ## Step 2: What is a variable
 
-Variables can be thought of as containers that information can be put into and stored. Go the ``||variables:Variables||`` category and make two variables. Give them two different names like random1 and random2. 
+Variables can be thought of as containers that information can be put into and stored. Go the ``||variables:Variables||`` category and make two variables. Give them two different names like random1 and random2.
+
+## Step 3: Place the variables
+
+Take the variables that you have made and put them into the ``||input:on button "A" pressed||`` block. 
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = 0
+    random2 = 0
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+```
+
+## Step 4: Store the Random Numbers
+
+The two variables will keep and store the random number that will be picked. This will let you turn on and off the same LED pixel - even though the pixel is randomly picked. Put a ``||math:pick random||`` into both ``||variables:set ... to||`` blocks.
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = randint(0, 10)
+    random2 = randint(0, 10)
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+```
+
+## Step 5: Make adjustments
+
+Adjust the range of of the random numbers, remember that there are five pixels and they are represented by the numbers 0 to 4.
+
+```blocks
+let random1 = 0
+let random2 = 0
+input.onButtonPressed(Button.A, function () {
+    random1 = randint(0, 4)
+    random2 = randint(0, 4)
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+```
+
+## Step 6: Use the Variables
+
+Go to the 
+
+![New Variable Blocks](https://raw.githubusercontent.com/rypsmith/randomonoff/master/variableblocks.png)
+
