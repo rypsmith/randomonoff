@@ -2,7 +2,7 @@
 
 ## Introduction @unplugged 
 
-Let's get real bright. We're going to make all the lights flash on your board!
+Let's turn pixles on and off with the A and B buttons - RANDOMLY!
 
 ![One Light on and off](https://raw.githubusercontent.com/rypsmith/randomonoff/master/randomonoff.gif)
 
