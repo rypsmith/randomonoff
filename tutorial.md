@@ -8,7 +8,7 @@ Let's turn pixles on and off with the A and B buttons - RANDOMLY!
 
 ## Step 1: Getting Set-up
 
-Start out by removing the forever and the ``||basic:forever||`` and the ``||basic:on start||`` blocks and bring in two ``||input:on button "A" pressed||`` blocks.
+Start out by removing the forever and the ``||basic:forever||`` and the ``||basic:on start||`` blocks and bring in two ``||input:on button "A" pressed||`` blocks. Change one block to ``||input:on button "B" pressed||``
 
 ## Step 2: What is a variable
 
