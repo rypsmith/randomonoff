@@ -1,14 +1,11 @@
 
 > Open this page at [https://rypsmith.github.io/randomonoff/](https://rypsmith.github.io/randomonoff/)
 
-## Use as Extension
+## Tutorial
 
-This repository can be added as an **extension** in MakeCode.
+* [tutorial](/randomonoff/tutorial) 
+* [start](https://makecode.microbit.org/#tutorial:github:rypsmith/randomonoff/tutorial)
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/rypsmith/randomonoff** and import
 
 ## Edit this project ![Build status badge](https://github.com/rypsmith/randomonoff/workflows/MakeCode/badge.svg)
 
