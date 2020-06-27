@@ -119,7 +119,7 @@ input.onButtonPressed(Button.B, function () {
 
 ## Step 9: Turn the LED Off
 
-Finally turn the LED off by placing the same variable blocks into the X and Y values for the``||Led:unplot||`` block. It is important that the same variable that you used for the ``||Led:plot||`` X value, is the same. This also needs to be true for the Y value.
+Finally turn the LED off by placing the same variable blocks into the X and Y values for the ``||Led:unplot||`` block. It is important that the same variable that you used for the ``||Led:plot||`` X value, is the same. This also needs to be true for the Y value.
 
 ```blocks
 let random1 = 0
